@@ -1,7 +1,7 @@
 // Top Section
 const intro = document.querySelector('.intro');
 const video = intro.querySelector('video');
-const text = intro.querySelector('h1');
+const text = document.getElementsByClassName('intro-card');
 
 // Bottom Section
 const section = document.querySelector('section');
@@ -12,7 +12,7 @@ const controller = new ScrollMagic.Controller();
 
 // Scenes
 const scene = new ScrollMagic.Scene({
-  duration: 30000,
+  duration: 107000,
   triggerElement: intro,
   triggerHook: 0
 })
